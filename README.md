@@ -25,5 +25,5 @@ data = condition ? value1 : value2;
 ```
 
 ##AngularJS 
-- [**Understanding Scopes**](https://github.com/angular/angular.js/wiki/Understanding-Scopes): Read and this before thinking of any serious AngularJS development.
+- [**Understanding Scopes**](https://github.com/angular/angular.js/wiki/Understanding-Scopes): Read and understand this before thinking of any serious AngularJS development.
 - [This guide](https://github.com/johnpapa/angularjs-styleguide) by John has some good pointers for AngularJS development 
