@@ -6,7 +6,7 @@ Here are some of the guideline that would help us keep our JS code well organize
 ## JS General
 **airbnb** has release a comprehensive JS guidelines [available here](https://github.com/airbnb/javascript). This would be the first resource to go to.
 
-- Use conditional operator `:?` if you only plan to set boolean value.
+- Use conditional operator `:?` if you only plan to set one value.
 ```javascript
 //bad
 if(condition) { 
