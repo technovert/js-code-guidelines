@@ -26,10 +26,10 @@ data = condition ? value1 : value2;
 
 ##AngularJS 
 - [**Understanding Scopes**](https://github.com/angular/angular.js/wiki/Understanding-Scopes): Read and understand this before thinking of any serious AngularJS development.
-- [This guide](https://github.com/johnpapa/angularjs-styleguide) by John has some good pointers for AngularJS development 
-- Use Model Classes: JS allows us to use any object without defining classes (constructor function) still it is better to explicity declare model classes. This helps in clearly communicating the intent of the model and what the view as coded against.
-- Shared Model: Use AngularJS service to share Model across, modules. Do not duplicate models. The idea is derived from [this post](https://medium.com/opinionated-angularjs/2e6a067c73bc).
-- Group Shared Model: For large implementation service per model becomes unwieldy, as DI count increase. Group models based on feature\functionality and put them in a single service
+- **Read AngularJS Guide**:[This guide](https://github.com/johnpapa/angularjs-styleguide) by John has some good pointers for AngularJS development 
+- **Use Model Classes**: JS allows us to use any object without defining classes (constructor function) still it is better to explicity declare model classes. This helps in clearly communicating the intent of the model and what the view as coded against.
+- **Shared Model**: Use AngularJS service to share Model across, modules. Do not duplicate models. The idea is derived from [this post](https://medium.com/opinionated-angularjs/2e6a067c73bc).
+- **Group Shared Model**: For large implementation service per model becomes unwieldy, as DI count increase. Group models based on feature\functionality and put them in a single service
 
 ```javascript
 // declare
