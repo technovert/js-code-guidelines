@@ -45,3 +45,9 @@ myModule.factory("UserModel", [function () {
 //use
 $scope.user=new UserModel.User();
 ```
+### App Structure
+- **Folder + Module per feature**: Create a folder for each feature and a corresponding module too. The folder will contains controllers and services and maybe filters and directive. 
+
+Remember directives and filters are mostly shared components and hence should go into `shared` folder. Look at [this post](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript) too for other organization techniques.
+
+This module separation may help us in lazy loading in future. Register all the modules defined in folders in `app.js` in the root folder.
